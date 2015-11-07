@@ -19,8 +19,8 @@ class Solution {
   static void IPAddressValidator() {
     string input = Console.ReadLine();
     int tmp = 0;
-    bool test = int.TryParse(input, out tmp);
-    if (!test) {
+    
+    if (!int.TryParse(input, out tmp)) {
       Console.WriteLine("Fatal Error, Incorrect Input on first line.");
       return;
     }
@@ -49,19 +49,19 @@ class Solution {
     if (input.Contains(" ")) { return false; }
     bool hexflag = true;
     char [] delims = { ':' } ;
-    char [] hexchars = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f' } ;
+    char [] hexchars = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
+                         'a', 'b', 'c', 'd', 'e', 'f'
+                       };
     string [] contents = input.Split(delims, 8, System.StringSplitOptions.RemoveEmptyEntries);
     // Compare each string in group of strings
     foreach (string s in contents) {
       // Compare each char in string
       foreach (char c in s) {
-        // Compare each char in group to hex
+        // Compare each char in hexchars
+        int count = 0;
         for(int i = 0; i < 16; ++i) {
-          int count = 0;
-          if (c != hexchars[i]) {
-            count++;
-          }
-          if (count == 15) {
+          if (c != hexchars[i]) { count++; }
+          if (count == 16) {
             hexflag = false; // Non-hex character in string -> Not a IPv6
             break;
           }
