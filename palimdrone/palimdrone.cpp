@@ -49,9 +49,9 @@ int main() {
   for (int i = 0, len = inputs.size(); i < len; ++i) { 
 
     if (Palimdrone(LowerString(CleanString(inputs[i])))) {
-      std::cout << i+1 << "true" << std::endl;
+      std::cout << "true" << std::endl;
     } else {
-      std::cout << i+1 << "false" << std::endl;
+      std::cout << "false" << std::endl;
     }
   }
 
