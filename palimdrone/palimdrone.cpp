@@ -24,7 +24,7 @@ std::string LowerString(std::string input) {
 
 bool Palimdrone(std::string input) {
 
-  std::string tmp(input.c_str());
+  std::string tmp(input);
 
   std::reverse(tmp.begin(), tmp.end());
 
@@ -54,7 +54,6 @@ int main() {
       std::cout << "false" << std::endl;
     }
   }
-
   return 0;
 }
 

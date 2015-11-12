@@ -1,6 +1,5 @@
 using System;
 using System.IO;
-
 using System.Collections.Generic;
 using System.Linq;
 class Solution {
@@ -21,8 +20,7 @@ class Solution {
     int tmp = 0;
     
     if (!int.TryParse(input, out tmp)) {
-      Console.WriteLine("Fatal Error, Incorrect Input on first line.");
-      return;
+      throw new Exception("Fatal Error, Incorrect Input on first line.");
     }
     while (tmp > 0) {
       IPWrapper(Console.ReadLine());
@@ -65,7 +63,7 @@ class Solution {
             hexflag = false; // Non-hex character in string -> Not a IPv6
             break;
           }
-        }
+        } // end inner for
         if (!hexflag) { return hexflag; } // char triggered flag, NOT IPv6 (returns false)
       }
     }

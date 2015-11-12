@@ -4,23 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-CPPFLAGS	substrings/Makefile	/^CPPFLAGS = -O2 --std=c++14$/;"	m	language:Make
-CheckIPv4	ipchecking/ipcheck.cs	/^  static bool CheckIPv4(string input) {$/;"	m	language:C#	class:Solution	file:
-CheckIPv6	ipchecking/ipcheck.cs	/^  static bool CheckIPv6(string input) {$/;"	m	language:C#	class:Solution	file:
-CleanString	palimdrone/palimdrone.cpp	/^std::string CleanString(std::string input) {$/;"	f	language:C++
-CleanString	substrings/substr.cpp	/^std::string CleanString(std::string input) {$/;"	f	language:C++
-DeleteFirstChar	substrings/substr.cpp	/^std::string DeleteFirstChar(const std::string input) {$/;"	f	language:C++
-Get_STDIN_Strings	palimdrone/palimdrone.cpp	/^std::vector<std::string> Get_STDIN_Strings(void) {$/;"	f	language:C++
-Get_STDIN_Strings	substrings/substr.cpp	/^std::vector<std::string> Get_STDIN_Strings(void) {$/;"	f	language:C++
-IPAddressValidator	ipchecking/ipcheck.cs	/^  static void IPAddressValidator() {$/;"	m	language:C#	class:Solution	file:
-IPWrapper	ipchecking/ipcheck.cs	/^  static void IPWrapper(string input) {$/;"	m	language:C#	class:Solution	file:
-LowerString	palimdrone/palimdrone.cpp	/^std::string LowerString(std::string input) {$/;"	f	language:C++
-LowerString	substrings/substr.cpp	/^std::string LowerString(std::string input) {$/;"	f	language:C++
-MAIN	substrings/Makefile	/^MAIN = substr$/;"	m	language:Make
-Main	ipchecking/ipcheck.cs	/^  static void Main(string[] args) {$/;"	m	language:C#	class:Solution	file:
-Palimdrone	palimdrone/palimdrone.cpp	/^bool Palimdrone(std::string input) {$/;"	f	language:C++
-Solution	ipchecking/ipcheck.cs	/^class Solution {$/;"	c	language:C#
-all_substring_helper	substrings/substr.cpp	/^int all_substring_helper(std::unordered_set<std::string> & container, std::string input) {$/;"	f	language:C++
-all_substrings	substrings/substr.cpp	/^int all_substrings(std::string input) {$/;"	f	language:C++
-main	palimdrone/palimdrone.cpp	/^int main() {$/;"	f	language:C++
-main	substrings/substr.cpp	/^int main() {$/;"	f	language:C++
+DeleteFirstChar	/home/robert/Code/CODE2040/substrings/substr.cpp	/^std::string DeleteFirstChar(const std::string input) {$/;"	f	language:C++
+Get_STDIN_Strings	/home/robert/Code/CODE2040/substrings/substr.cpp	/^std::vector<std::string> Get_STDIN_Strings(void) {$/;"	f	language:C++
+all_substring_helper	/home/robert/Code/CODE2040/substrings/substr.cpp	/^long all_substring_helper(std::unordered_set<std::string> & container, std::string input) {$/;"	f	language:C++
+all_substrings	/home/robert/Code/CODE2040/substrings/substr.cpp	/^long all_substrings(std::string input) {$/;"	f	language:C++
+main	/home/robert/Code/CODE2040/substrings/substr.cpp	/^int main() {$/;"	f	language:C++
