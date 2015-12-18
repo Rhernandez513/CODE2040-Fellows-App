@@ -4,8 +4,12 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-DeleteFirstChar	/home/robert/Code/CODE2040/substrings/substr.cpp	/^std::string DeleteFirstChar(const std::string input) {$/;"	f	language:C++
-Get_STDIN_Strings	/home/robert/Code/CODE2040/substrings/substr.cpp	/^std::vector<std::string> Get_STDIN_Strings(void) {$/;"	f	language:C++
-all_substring_helper	/home/robert/Code/CODE2040/substrings/substr.cpp	/^long all_substring_helper(std::unordered_set<std::string> & container, std::string input) {$/;"	f	language:C++
-all_substrings	/home/robert/Code/CODE2040/substrings/substr.cpp	/^long all_substrings(std::string input) {$/;"	f	language:C++
-main	/home/robert/Code/CODE2040/substrings/substr.cpp	/^int main() {$/;"	f	language:C++
+Alphabetize	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static string Alphabetize(string s)    {$/;"	m	language:C#	class:MyClass
+CheckString	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static bool CheckString(string input_one, string input_two) {$/;"	m	language:C#	class:MyClass
+CheckStringArrayVersion	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static bool CheckStringArrayVersion(string input_one, string input_two) {$/;"	m	language:C#	class:MyClass
+Main	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static void Main(string[] args) {$/;"	m	language:C#	class:MyClass
+MyClass	/home/robert/Code/CODE2040/techTrek/test.cs	/^public static class MyClass {$/;"	c	language:C#
+MyClass.Alphabetize	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static string Alphabetize(string s)    {$/;"	m	language:C#	class:MyClass
+MyClass.CheckString	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static bool CheckString(string input_one, string input_two) {$/;"	m	language:C#	class:MyClass
+MyClass.CheckStringArrayVersion	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static bool CheckStringArrayVersion(string input_one, string input_two) {$/;"	m	language:C#	class:MyClass
+MyClass.Main	/home/robert/Code/CODE2040/techTrek/test.cs	/^  public static void Main(string[] args) {$/;"	m	language:C#	class:MyClass
